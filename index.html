@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -10,9 +11,12 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="icons/icon-192.png">
     <link rel="apple-touch-icon" href="icons/icon-192.png">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="app">
         <!-- Header -->
@@ -22,12 +26,13 @@
         </header>
 
         <!-- Pantallas (se muestran/ocultan con JS) -->
-        
+
         <!-- Pantalla 1: Inicio -->
         <main id="screen-home" class="screen active">
             <div class="welcome-section">
                 <h2 class="welcome-title">Crea tu Blend</h2>
-                <p class="welcome-text">Explorá nuestros ingredientes y armá tu mezcla personalizada y nosotros diseñamos la proporción perfecta</p>
+                <p class="welcome-text">Explorá nuestros ingredientes y armá tu mezcla personalizada y nosotros
+                    diseñamos la proporción perfecta</p>
             </div>
 
             <div class="categories-grid">
@@ -150,6 +155,29 @@
                     </select>
                 </div>
 
+                <!-- Sección Etiqueta Personalizada -->
+                <div class="label-section">
+                    <div class="label-section-header">
+                        <span class="label-icon">🏷️</span>
+                        <h3>Personalizá tu Etiqueta</h3>
+                    </div>
+
+                    <div class="label-example">
+                        <img src="images/etiqueta-ejemplo.jpg" alt="Ejemplo de etiqueta" class="label-example-image">
+                        <p class="label-example-text">Tu etiqueta se vería así ✨</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Nombre de tu Blend</label>
+                        <input type="text" id="inputLabelName" placeholder="Ej: Elixir de Luna" maxlength="25">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Creado por</label>
+                        <input type="text" id="inputLabelCreator" placeholder="Tu nombre o iniciales" maxlength="20">
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <label>Notas adicionales</label>
                     <textarea id="inputNotas" placeholder="¿Alguna preferencia o alergia que debamos saber?"></textarea>
@@ -166,6 +194,7 @@
                 </button>
             </form>
         </main>
+
 
         <!-- Modal Detalle Ingrediente -->
         <div class="modal" id="ingredientModal">
@@ -224,4 +253,5 @@
     <script src="data/ingredientes.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>
