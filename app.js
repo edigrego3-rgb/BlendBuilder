@@ -11,7 +11,7 @@ const state = {
 };
 
 // Número de WhatsApp para pedidos (Rojo Malbec)
-const WHATSAPP_NUMBER = '5493544038380';
+const WHATSAPP_NUMBER = '5493544308380';
 
 // ============================================
 // DOM Elements
@@ -308,3 +308,4 @@ document.addEventListener('DOMContentLoaded', () => {
     updateBadge();
     navigateTo('home');
 });
+
