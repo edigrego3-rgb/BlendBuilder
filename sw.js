@@ -1,4 +1,4 @@
-const CACHE_NAME = 'blend-builder-v2';
+const CACHE_NAME = 'blend-builder-v3';
 const urlsToCache = [
     './',
     './index.html',
