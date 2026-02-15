@@ -361,8 +361,9 @@ function renderProducts() {
 
     grid.innerHTML = filtered.map(prod => {
         const vitalBadge = prod.sinSodio ? '<span class="vital-indicator">💚 0% Sodio</span>' : '';
+        const encodedPath = prod.imagen ? encodeURI(prod.imagen) : '';
         const imageHtml = prod.imagen
-            ? `<img src="${prod.imagen}" alt="${prod.nombre}" class="product-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">`
+            ? `<img src="${encodedPath}" alt="${prod.nombre}" class="product-img" onerror="console.error('Error cargando:', '${prod.imagen}'); this.style.display='none'; this.nextElementSibling.style.display='flex'">`
             : '';
         const emojiStyle = prod.imagen ? 'style="display:none;"' : '';
 
