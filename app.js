@@ -361,9 +361,17 @@ function renderProducts() {
 
     grid.innerHTML = filtered.map(prod => {
         const vitalBadge = prod.sinSodio ? '<span class="vital-indicator">💚 0% Sodio</span>' : '';
+        const imageHtml = prod.imagen
+            ? `<img src="${prod.imagen}" alt="${prod.nombre}" class="product-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">`
+            : '';
+        const emojiStyle = prod.imagen ? 'style="display:none;"' : '';
+
         return `
             <div class="product-card" data-product-id="${prod.id}">
-                <div class="product-emoji">${prod.emoji}</div>
+                <div class="product-image-container">
+                    ${imageHtml}
+                    <div class="product-emoji" ${emojiStyle}>${prod.emoji}</div>
+                </div>
                 <div class="product-info">
                     <div class="product-name">${prod.nombre}</div>
                     <div class="product-tagline">${prod.tagline}</div>
@@ -386,7 +394,13 @@ function openProductModal(id) {
 
     currentProduct = prod;
 
-    document.getElementById('productModalIcon').textContent = prod.emoji;
+    const modalIcon = document.getElementById('productModalIcon');
+    if (prod.imagen) {
+        modalIcon.innerHTML = `<img src="${prod.imagen}" alt="${prod.nombre}" style="width:100px; height:100px; border-radius:12px; object-fit:cover; margin-bottom:10px;">`;
+    } else {
+        modalIcon.textContent = prod.emoji;
+    }
+
     document.getElementById('productModalTitle').textContent = prod.nombre;
     document.getElementById('productModalTagline').textContent = prod.tagline;
     document.getElementById('productModalDescripcion').textContent = prod.descripcion;

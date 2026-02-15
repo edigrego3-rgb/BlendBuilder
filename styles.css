@@ -722,9 +722,31 @@ body {
     box-shadow: 0 5px 15px var(--shadow);
 }
 
+.product-image-container {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 12px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #fdfdfd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.05);
+}
+
 .product-emoji {
     font-size: 2.5rem;
-    margin-bottom: 10px;
 }
 
 .product-info {
@@ -773,6 +795,9 @@ body {
 
 .product-modal-content .modal-icon {
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .product-modal-content .product-tagline {
