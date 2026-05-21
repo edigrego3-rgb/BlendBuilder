@@ -1,5 +1,4 @@
 // productos.js - Catálogo Rojo Malbec (19 productos seleccionados)
-
 const productos = [
     // ═══════════════════════════════════════════════════════════════
     // 🧂 SALES GOURMET (7 productos)
@@ -20,6 +19,7 @@ const productos = [
         nombre: "Sal British",
         categoria: "sales",
         emoji: "🇬🇧",
+        imagen: "products/Sal British.png",
         tagline: "La herencia de las cocinas británicas, con alma argentina.",
         descripcion: "Un tributo a la tradición culinaria inglesa reinterpretado con ingredientes locales de primera calidad. Esta sal de hierbas combina el aroma del perejil fresco, el carácter del tomillo y el punto justo de pimienta blanca. Su perfil herbáceo y delicadamente especiado eleva cualquier preparación sin dominarla.",
         ingredientes: "Sal marina, perejil, tomillo, ajo, romero, cebolla, pimienta blanca",
@@ -30,6 +30,7 @@ const productos = [
         nombre: "Sal de Limón y Chile",
         categoria: "sales",
         emoji: "🍋",
+        imagen: "products/Sal de limon y chile.png",
         tagline: "Cítricos del Mediterráneo con el fuego latinoamericano.",
         descripcion: "Un equilibrio magistral entre la frescura vibrante del limón y el calor suave del chile. Esta sal versátil despierta los sabores de mariscos y pescados, transformando preparaciones simples en experiencias gastronómicas memorables. Su intensidad controlada la hace apta para paladares que buscan emoción sin excesos.",
         ingredientes: "Sal marina, cáscara de limón deshidratada, ají, pimentón español, tomate deshidratado, achiote",
@@ -79,7 +80,6 @@ const productos = [
         ingredientes: "Sal marina, ajo, perejil, cilantro, fenogreco, hinojo, tomillo, romero, flor de caléndula, cáscara de limón, azafrán",
         maridaje: "Khachapuri, carnes estofadas, vegetales asados, sompás"
     },
-
     // ═══════════════════════════════════════════════════════════════
     // 🌶️ BLENDS DE ESPECIAS (10 productos)
     // ═══════════════════════════════════════════════════════════════
@@ -99,6 +99,7 @@ const productos = [
         nombre: "Curry Colombo",
         categoria: "blends",
         emoji: "🥥",
+        imagen: "products/Curri Colombo.jpg",
         tagline: "El Caribe francés en estado puro.",
         descripcion: "Originario de las Antillas francesas, este curry tropical se diferencia por sus notas frutales y frescas. El sumac aporta acidez, la leche de coco suaviza, y el limón marroquí añade un perfume exótico. Menos picante que sus primos indios, pero igualmente aromático.",
         ingredientes: "Coriandro, cúrcuma, sumac, arroz, leche de coco, comino, ajo, mostaza, fenogreco, limón marroquí, pimienta blanca, ají molido, clavo de olor",
@@ -131,6 +132,7 @@ const productos = [
         nombre: "Za'atar",
         categoria: "blends",
         emoji: "🫓",
+        imagen: "products/zaatar_rojo_malbec.png",
         tagline: "El perfume del Levante.",
         descripcion: "El condimento más antiguo del mundo, mencionado en textos bíblicos. Esta mezcla levantina combina el sumac ácido, el sésamo tostado y un trío de hierbas mediterráneas. Un sabor que define a todo Medio Oriente.",
         ingredientes: "Sumac, sésamo blanco, tomillo, mejorana, orégano, sal marina",
@@ -163,6 +165,7 @@ const productos = [
         nombre: "Panch Phoron",
         categoria: "blends",
         emoji: "🌱",
+        imagen: "products/panch phoron.png",
         tagline: "Las cinco joyas de Bengala.",
         descripcion: "El blend emblema de la cocina bengalí y del este de India. Cinco semillas enteras en proporciones iguales: fenogreco amargo, hinojo dulce, comino negro misterioso, comino terroso y mostaza punzante. Se tuesta en aceite caliente para liberar su magia aromática.",
         ingredientes: "Fenogreco, semillas de hinojo, comino negro, comino, mostaza negra",
@@ -190,7 +193,6 @@ const productos = [
         ingredientes: "Canela, clavo de olor, anís estrellado, cardamomo, cáscaras de cítricos deshidratadas, jengibre",
         maridaje: "Vino caliente (Malbec joven), sidra caliente, jugo de manzana especiado"
     },
-
     // ═══════════════════════════════════════════════════════════════
     // 💚 LÍNEA VITAL - 0% SODIO (1 producto)
     // ═══════════════════════════════════════════════════════════════
@@ -206,7 +208,6 @@ const productos = [
         maridaje: "Arroces, guisos, sopas, vegetales al vapor",
         sinSodio: true
     },
-
     // ═══════════════════════════════════════════════════════════════
     // 🌶️ PIMIENTAS DE AUTOR (1 producto)
     // ═══════════════════════════════════════════════════════════════
@@ -222,11 +223,9 @@ const productos = [
         maridaje: "Cerdo, pato, postres de chocolate, frutas asadas, quesos cremosos"
     }
 ];
-
 // Categorías con sus detalles
 const categorias = {
     sales: { nombre: "Sales Gourmet", icono: "🧂", color: "#f5f5f5" },
     blends: { nombre: "Blends de Especias", icono: "🌶️", color: "#fff3e0" },
     vital: { nombre: "Línea Vital (0% Sodio)", icono: "💚", color: "#e8f5e9" },
     pimientas: { nombre: "Pimientas de Autor", icono: "🌶️", color: "#ffebee" }
-};
