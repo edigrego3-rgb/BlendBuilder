@@ -1,4 +1,5 @@
 // productos.js - Catálogo Rojo Malbec (19 productos seleccionados)
+
 const productos = [
     // ═══════════════════════════════════════════════════════════════
     // 🧂 SALES GOURMET (7 productos)
@@ -80,6 +81,7 @@ const productos = [
         ingredientes: "Sal marina, ajo, perejil, cilantro, fenogreco, hinojo, tomillo, romero, flor de caléndula, cáscara de limón, azafrán",
         maridaje: "Khachapuri, carnes estofadas, vegetales asados, sompás"
     },
+
     // ═══════════════════════════════════════════════════════════════
     // 🌶️ BLENDS DE ESPECIAS (10 productos)
     // ═══════════════════════════════════════════════════════════════
@@ -193,6 +195,7 @@ const productos = [
         ingredientes: "Canela, clavo de olor, anís estrellado, cardamomo, cáscaras de cítricos deshidratadas, jengibre",
         maridaje: "Vino caliente (Malbec joven), sidra caliente, jugo de manzana especiado"
     },
+
     // ═══════════════════════════════════════════════════════════════
     // 💚 LÍNEA VITAL - 0% SODIO (1 producto)
     // ═══════════════════════════════════════════════════════════════
@@ -208,6 +211,7 @@ const productos = [
         maridaje: "Arroces, guisos, sopas, vegetales al vapor",
         sinSodio: true
     },
+
     // ═══════════════════════════════════════════════════════════════
     // 🌶️ PIMIENTAS DE AUTOR (1 producto)
     // ═══════════════════════════════════════════════════════════════
@@ -223,9 +227,11 @@ const productos = [
         maridaje: "Cerdo, pato, postres de chocolate, frutas asadas, quesos cremosos"
     }
 ];
+
 // Categorías con sus detalles
 const categorias = {
     sales: { nombre: "Sales Gourmet", icono: "🧂", color: "#f5f5f5" },
     blends: { nombre: "Blends de Especias", icono: "🌶️", color: "#fff3e0" },
     vital: { nombre: "Línea Vital (0% Sodio)", icono: "💚", color: "#e8f5e9" },
     pimientas: { nombre: "Pimientas de Autor", icono: "🌶️", color: "#ffebee" }
+};
