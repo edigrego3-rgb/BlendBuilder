@@ -275,4 +275,48 @@
                     </div>
                     <div class="modal-section">
                         <div class="modal-label">Origen</div>
-                        <div class="modal-value
+                        <div class="modal-value" id="modalOrigen"></div>
+                    </div>
+                    <div class="modal-section">
+                        <div class="modal-label">Descripción</div>
+                        <div class="modal-value" id="modalDescripcion"></div>
+                    </div>
+                    <div class="modal-section">
+                        <div class="modal-label">Perfil aromático</div>
+                        <div class="modal-tags" id="modalPerfil"></div>
+                    </div>
+                </div>
+                <button class="btn-primary modal-add" id="modalAddBtn">
+                    + Agregar a mi blend
+                </button>
+            </div>
+        </div>
+
+        <!-- Navegación inferior -->
+        <nav class="bottom-nav">
+            <button class="nav-item active" data-screen="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Inicio</span>
+            </button>
+            <button class="nav-item" data-screen="products">
+                <span class="nav-icon">🛒</span>
+                <span class="nav-label">Nuestros Productos</span>
+            </button>
+            <button class="nav-item" data-screen="explore">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-label">Explorar</span>
+            </button>
+            <button class="nav-item" data-screen="blend">
+                <span class="nav-icon">🧪</span>
+                <span class="nav-label">Mi Blend</span>
+                <span class="nav-badge" id="blendBadge">0</span>
+            </button>
+        </nav>
+    </div>
+
+    <script src="data/productos.js"></script>
+    <script src="data/ingredientes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
