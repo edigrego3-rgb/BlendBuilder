@@ -7,7 +7,7 @@ const productos = [
         categoria: "sales",
         emoji: "🍷",
         tagline: "El alma de Mendoza en cada cristal",
-        descripcion: "`🔥 Sal Marina al Malbec | La Sangre de la Tierra en tu Asado
+        descripcion: `🔥 Sal Marina al Malbec | La Sangre de la Tierra en tu Asado
 
 Esta es nuestra razón de ser. No es solo sal, es la fusión de dos pasiones: el fuego y el vino. Es llevar el viñedo y la montaña directamente a tu tabla.
 
@@ -42,7 +42,7 @@ No es para cualquier asado. Es para cuando querés lucirte. Pedí tu lata y dale
         categoria: "sales",
         emoji: "🇬🇧",
         tagline: "La herencia de las cocinas británicas, con alma argentina.",
-        descripcion: "`🍺 Sal Marina Tipo British | La Experiencia del Pub en tu Casa
+        descripcion: `🍺 Sal Marina Tipo British | La Experiencia del Pub en tu Casa
 
 Si alguna vez probaste esas papas fritas adictivas con el toque justo de vinagre y sal, sabés de qué hablamos. Pero esta no es una sal común: es una versión de autor que captura la esencia de la malta y el lúpulo.
 
@@ -77,7 +77,7 @@ Está diseñada para acompañar tu cerveza favorita. Una pinta fría, una buena 
         categoria: "sales",
         emoji: "🍋",
         tagline: "Cítricos del Mediterráneo con el fuego latinoamericano.",
-        descripcion: "`🍋 SAL MARINA CON LIMÓN & CHILE — Sal Saborizada de Autor · Edición Sales Gourmet · Rojo Malbec
+        descripcion: `🍋 SAL MARINA CON LIMÓN & CHILE — Sal Saborizada de Autor · Edición Sales Gourmet · Rojo Malbec
 
 La chispa exacta que le faltaba a tus platos. Un blend vibrante donde la pureza crujiente de la sal marina se combina con la frescura ácida de la cáscara de limón deshidratada y el golpe de calor justo del chile triturado.
 
@@ -100,7 +100,7 @@ Tip del blender: Usala tambien como "sal de acabado" (finish salt) al momento de
         categoria: "sales",
         emoji: "🌹",
         tagline: "Romance aromático en estado puro.",
-        descripcion: "`🌹 Sal de Pétalos de Rosas y Romero – Edición Alquimia
+        descripcion: `🌹 Sal de Pétalos de Rosas y Romero – Edición Alquimia
 
 El perfume en un cristal de sal. En Rojo Malbec no solo creamos condimentos, diseñamos experiencias sensoriales. Nuestra Sal de Rosas y Romero es el equilibrio perfecto entre la fuerza silvestre del monte y la elegancia sutil del jardín.
 
@@ -133,7 +133,7 @@ El Secreto del Chef: Probala sobre un trozo de chocolate amargo o una ganache de
         categoria: "sales",
         emoji: "🏜️",
         tagline: "Los secretos del Medio Oriente en tu cocina.",
-        descripcion: "`🏜️ Sal del Desierto | Blend Exótico & Ahumado
+        descripcion: `🏜️ Sal del Desierto | Blend Exótico & Ahumado
 
 ¿A qué sabe una tormenta de arena y especias? Este no es un salado común. Es un blend de terminación (finishing salt) inspirado en los aromas de Medio Oriente, diseñado para aportar complejidad, acidez y un toque ahumado a tus platos.
 
@@ -166,7 +166,7 @@ Toque Gourmet: Espolvorealo sobre Hummus, Babaganoush o incluso en el borde de u
         categoria: "sales",
         emoji: "🖤",
         tagline: "Dramatismo visual, sutileza en el paladar.",
-        descripcion: "`🧂Sal Negra Tipo Hawaiana – La alquimia de Rojo Malbec
+        descripcion: `🧂Sal Negra Tipo Hawaiana – La alquimia de Rojo Malbec
 
 Hay productos que se ven bien, y hay productos que cambian las reglas del juego. Nuestra nueva Sal Negra es el equilibrio perfecto entre estética volcánica y un perfil de sabor que no vas a encontrar en ninguna otra parte del país.
 
@@ -195,7 +195,7 @@ Carnes blancas o mariscos que busquen un perfil exótico y elegante.
         categoria: "sales",
         emoji: "🏔️",
         tagline: "El tesoro oculto del Cáucaso georgiano.",
-        descripcion: "`🏔️ Sal Svanetian | Sazonador Ancestral
+        descripcion: `🏔️ Sal Svanetian | Sazonador Ancestral
 
 ¿Salaste o condimentaste?
 
@@ -232,7 +232,7 @@ Trátala como un ingrediente más, no solo como sal. Si vas a hacer un pollo al 
         categoria: "blends",
         emoji: "🧄",
         tagline: "Ajo elevado a la máxima expresión.",
-        descripcion: "`🧄 Blend de Ajo & Hierbas | Perfil Provence
+        descripcion: `🧄 Blend de Ajo & Hierbas | Perfil Provence
 
 Más que un condimento, un perfume para tu cocina.
 
@@ -271,7 +271,7 @@ Hidrátalo con un poco de aceite de oliva unos minutos antes de usar. Esto despi
         categoria: "blends",
         emoji: "🔥",
         tagline: "El arte del asado, perfeccionado.",
-        descripcion: "`🔥 Barbacoa Rub | Fuego, Humo y Pasión
+        descripcion: `🔥 Barbacoa Rub | Fuego, Humo y Pasión
 
 ¿Por qué tus costillas no se ven como las de las revistas?
 
@@ -310,7 +310,7 @@ Vegetales: Probá espolvorear unas batatas o choclos antes de asarlos.
         categoria: "blends",
         emoji: "🥥",
         tagline: "El Caribe francés en estado puro.",
-        descripcion: "`🌴 CURRY COLOMBO — Las Antillas Francesas Sabores del Caribe · Rojo Malbec
+        descripcion: `🌴 CURRY COLOMBO — Las Antillas Francesas Sabores del Caribe · Rojo Malbec
 
 ¿Qué es el Colombo? Es EL curry del Caribe francés. Nació en Martinica y Guadalupe, traído por inmigrantes de Sri Lanka, y se convirtió en el plato nacional de las Antillas. No es un curry indio: es más fresco, más tropical, con coco y cítricos.
 
@@ -331,7 +331,7 @@ Ideal para: Pollo, cabra, pescados, langostinos, vegetales tropicales.
         categoria: "blends",
         emoji: "🇯🇵",
         tagline: "Los siete sabores de Japón.",
-        descripcion: "`🌶️ Nanami Tōgarashi | Condimento Japonés de Autor - Rojo Malbec 🇯🇵
+        descripcion: `🌶️ Nanami Tōgarashi | Condimento Japonés de Autor - Rojo Malbec 🇯🇵
 
 ¡Llevá la auténtica experiencia de la cocina japonesa a tu mesa!. Este blend tradicional es el secreto milenario para darle un toque intenso, aromático y picante a tus comidas.
 
@@ -362,7 +362,7 @@ Snacks: ¡Dale un giro único a tus pochoclos, frutos secos o chips!
         categoria: "blends",
         emoji: "🫓",
         tagline: "El perfume del Levante.",
-        descripcion: "`🌿 Za'atar  | Blend Auténtico & Vibrante
+        descripcion: `🌿 Za'atar  | Blend Auténtico & Vibrante
 
 ¿A qué sabe un atardecer en el Mediterráneo? Este no es un condimento más. Es el alma de Medio Oriente, un blend tradicional y equilibrado donde la acidez cítrica profunda se encuentra con el tostado cálido y la frescura de las hierbas salvajes.
 
@@ -397,7 +397,7 @@ Toque Fresco: Espolvorealo sobre tomates reliquia con oliva, ensaladas de pepino
         categoria: "blends",
         emoji: "🍔",
         tagline: "El clásico americano hecho polvo mágico",
-        descripcion: "`🍔 SLOPPY JOE — Salsa Deshidratada Estilo USA Tradicional Americano · Rojo Malbec
+        descripcion: `🍔 SLOPPY JOE — Salsa Deshidratada Estilo USA Tradicional Americano · Rojo Malbec
 
 ¿Qué es un Sloppy Joe? Es EL sándwich americano por excelencia: carne molida en una salsa dulce, ahumada y especiada, servida en un pan brioche. "Sloppy" porque se desborda gloriosamente. Nació en los años '30 en USA y es ícono de la cocina casera americana.
 
@@ -443,7 +443,7 @@ Tip del blender: Calentar el vino con el blend a fuego muy lento (idealmente a 7
         categoria: "vital",
         emoji: "🍵",
         tagline: "Base umami 0% sodio",
-        descripcion: "`🍄 VITAL CALDO — Base Umami Sin Sodio Línea Vital · 0% Sodio · Rojo Malbec
+        descripcion: `🍄 VITAL CALDO — Base Umami Sin Sodio Línea Vital · 0% Sodio · Rojo Malbec
 
 ¿Cansado de los caldos industriales llenos de sodio y químicos? Vital Caldo es un potenciador de sabor 100% natural y 0% sodio. Su secreto: levadura nutricional, hongos shiitake y hongos de pino que aportan umami real — ese sabor profundo  que hace que todo sepa mejor.
 
@@ -465,7 +465,7 @@ Ideal para: Cocciones largas, fondos, guisos de legumbres, arroces, salteados de
         categoria: "pimientas",
         emoji: "❤️",
         tagline: "Fuego suave y dulzura especiada",
-        descripcion: "`🖤 PIMIENTA ROJA & PIMIENTA LARGA — Blend Exótico de Autor Edición Pimientas · Rojo Malbec
+        descripcion: `🖤 PIMIENTA ROJA & PIMIENTA LARGA — Blend Exótico de Autor Edición Pimientas · Rojo Malbec
 
 Este no es un molinillo de pimienta común. Es un blend de autor que combina pimienta roja verdadera (la baya madura del Piper nigrum), pimienta larga (la especia ancestral que usaban los romanos antes de conocer la pimienta negra), cáscara de mandarina deshidratada, nibs de cacao, pimienta negra y pimienta de Jamaica.
 
