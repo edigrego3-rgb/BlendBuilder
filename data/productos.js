@@ -6,6 +6,7 @@ const productos = [
         nombre: "Sal al Malbec",
         categoria: "sales",
         emoji: "🍷",
+        imagen: "products/sal al malbec.jpg",
         tagline: "El alma de Mendoza en cada cristal",
         descripcion: `🔥 Sal Marina al Malbec | La Sangre de la Tierra en tu Asado
 
@@ -99,6 +100,7 @@ Tip del blender: Usala tambien como "sal de acabado" (finish salt) al momento de
         nombre: "Sal de Rosas y Romero",
         categoria: "sales",
         emoji: "🌹",
+        imagen: "products/sal marina de rosas y romero.jpg",
         tagline: "Romance aromático en estado puro.",
         descripcion: `🌹 Sal de Pétalos de Rosas y Romero – Edición Alquimia
 
@@ -132,6 +134,7 @@ El Secreto del Chef: Probala sobre un trozo de chocolate amargo o una ganache de
         nombre: "Sal del Desierto",
         categoria: "sales",
         emoji: "🏜️",
+        imagen: "products/sal_del_desierto.png",
         tagline: "Los secretos del Medio Oriente en tu cocina.",
         descripcion: `🏜️ Sal del Desierto | Blend Exótico & Ahumado
 
@@ -165,6 +168,7 @@ Toque Gourmet: Espolvorealo sobre Hummus, Babaganoush o incluso en el borde de u
         nombre: "Sal Negra Tipo Hawaiana",
         categoria: "sales",
         emoji: "🖤",
+        imagen: "products/sal-negra-hawaiana.png",
         tagline: "Dramatismo visual, sutileza en el paladar.",
         descripcion: `🧂Sal Negra Tipo Hawaiana – La alquimia de Rojo Malbec
 
@@ -194,6 +198,7 @@ Carnes blancas o mariscos que busquen un perfil exótico y elegante.
         nombre: "Sal Esvanetian",
         categoria: "sales",
         emoji: "🏔️",
+        imagen: "products/sal tipo svanetian.png",
         tagline: "El tesoro oculto del Cáucaso georgiano.",
         descripcion: `🏔️ Sal Svanetian | Sazonador Ancestral
 
@@ -231,6 +236,7 @@ Trátala como un ingrediente más, no solo como sal. Si vas a hacer un pollo al 
         nombre: "Ajo a las Hierbas Gourmet",
         categoria: "blends",
         emoji: "🧄",
+        imagen: "products/ajo a las hierbas.png",
         tagline: "Ajo elevado a la máxima expresión.",
         descripcion: `🧄 Blend de Ajo & Hierbas | Perfil Provence
 
@@ -270,6 +276,7 @@ Hidrátalo con un poco de aceite de oliva unos minutos antes de usar. Esto despi
         nombre: "BBQ Rojo Malbec",
         categoria: "blends",
         emoji: "🔥",
+        imagen: "products/barbacoa rub.png",
         tagline: "El arte del asado, perfeccionado.",
         descripcion: `🔥 Barbacoa Rub | Fuego, Humo y Pasión
 
