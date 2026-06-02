@@ -42,6 +42,7 @@ No es para cualquier asado. Es para cuando querés lucirte. Pedí tu lata y dale
         nombre: "Sal British",
         categoria: "sales",
         emoji: "🇬🇧",
+        imagen: "products/Sal British.png",
         tagline: "La herencia de las cocinas británicas, con alma argentina.",
         descripcion: `🍺 Sal Marina Tipo British | La Experiencia del Pub en tu Casa
 
@@ -77,6 +78,7 @@ Está diseñada para acompañar tu cerveza favorita. Una pinta fría, una buena 
         nombre: "Sal de Limón y Chile",
         categoria: "sales",
         emoji: "🍋",
+        imagen: "products/Sal de limon y chile.png",
         tagline: "Cítricos del Mediterráneo con el fuego latinoamericano.",
         descripcion: `🍋 SAL MARINA CON LIMÓN & CHILE — Sal Saborizada de Autor · Edición Sales Gourmet · Rojo Malbec
 
@@ -316,6 +318,7 @@ Vegetales: Probá espolvorear unas batatas o choclos antes de asarlos.
         nombre: "Curry Colombo",
         categoria: "blends",
         emoji: "🥥",
+        imagen: "products/Curri Colombo.jpg",
         tagline: "El Caribe francés en estado puro.",
         descripcion: `🌴 CURRY COLOMBO — Las Antillas Francesas Sabores del Caribe · Rojo Malbec
 
@@ -337,6 +340,7 @@ Ideal para: Pollo, cabra, pescados, langostinos, vegetales tropicales.
         nombre: "Nanami Tōgarashi",
         categoria: "blends",
         emoji: "🇯🇵",
+        imagen: "products/nanami torigashi final.jpg",
         tagline: "Los siete sabores de Japón.",
         descripcion: `🌶️ Nanami Tōgarashi | Condimento Japonés de Autor - Rojo Malbec 🇯🇵
 
@@ -368,6 +372,7 @@ Snacks: ¡Dale un giro único a tus pochoclos, frutos secos o chips!
         nombre: "Za'atar",
         categoria: "blends",
         emoji: "🫓",
+        imagen: "products/zaatar_rojo_malbec.png",
         tagline: "El perfume del Levante.",
         descripcion: `🌿 Za'atar  | Blend Auténtico & Vibrante
 
@@ -403,6 +408,7 @@ Toque Fresco: Espolvorealo sobre tomates reliquia con oliva, ensaladas de pepino
         nombre: "Sloopy Joe",
         categoria: "blends",
         emoji: "🍔",
+        imagen: "products/sloppy_joe_v2.png",
         tagline: "El clásico americano hecho polvo mágico",
         descripcion: `🍔 SLOPPY JOE — Salsa Deshidratada Estilo USA Tradicional Americano · Rojo Malbec
 
@@ -424,6 +430,7 @@ Ideal para: Sándwiches, hot dogs, carnes desmenuzadas, hamburguesas, nachos.
         nombre: "Glühwein",
         categoria: "blends",
         emoji: "🍷",
+        imagen: "products/gluhwein.png",
         tagline: "Blend para Vino Caliente Especiado",
         descripcion: `🍷 GLÜHWEIN — Blend para Vino Caliente Especiado · Edición Blends de Autor · Rojo Malbec
 
@@ -449,6 +456,7 @@ Tip del blender: Calentar el vino con el blend a fuego muy lento (idealmente a 7
         nombre: "Vital Caldo",
         categoria: "vital",
         emoji: "🍵",
+        imagen: "products/vital_caldo_v2.png",
         tagline: "Base umami 0% sodio",
         descripcion: `🍄 VITAL CALDO — Base Umami Sin Sodio Línea Vital · 0% Sodio · Rojo Malbec
 
@@ -471,6 +479,7 @@ Ideal para: Cocciones largas, fondos, guisos de legumbres, arroces, salteados de
         nombre: "Pimienta Roja y Pimienta Larga",
         categoria: "pimientas",
         emoji: "❤️",
+        imagen: "products/pimienta_roja_v2.png",
         tagline: "Fuego suave y dulzura especiada",
         descripcion: `🖤 PIMIENTA ROJA & PIMIENTA LARGA — Blend Exótico de Autor Edición Pimientas · Rojo Malbec
 
